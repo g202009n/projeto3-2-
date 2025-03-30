@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(99, 1, 99);
+    height: 9vh;
+    width: 100%;
+}
+
+#logo{
+    width: 25%;
+    height: 6vh;
+    margin-top: 1.5vh;
+    margin-left: 0.7%;
+    float: left;
+}
+
+#logo img{
+    height: 6vh;
+    width: auto;
+    float: left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #111;
+}
+
+#logo p :hover{
+    text-decoration: underline;
+}
+
+#logo p{
+    font-size: 5vh;
+    margin-left: 1vh;
+}
+
+nav{
+    height: 7vh;
+    background-color: #6D6D6D;
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 17.3vh;
+    font-size: 4vh;
+    margin-top: 0.16vh;
+
+}
+
+nav li a:hover{
+    color: #000;
+    background-color: #620080;
+}
+
+nav li a{
+    color: #000;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 1vh 10%;
+    border-radius: 10vh;
+}
+
+section{
+    background-color: gray;
+    height: 80vh;
+    width: 100%;
+    float: left;
+    background-image: url(../img/evacuatin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vh;
+}
+
+footer{
+    height: 4vh;
+    background-color: #444;
+    width: 100%;
+    float: left;
+}
+
+footer p{
+    font-size: 2vh;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 1vh;
+}
+
+article{
+    background-color:  rgba(85, 85, 85, 0.3);
+    height: 75vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5vh;
+}
+
+article div{
+    width: 32%;
+    margin-left: 26%;
+    float: left;
+    margin-top: 4vh;
+}
+
+article div input{
+    height: 5vh;
+    width: 150%;
+    margin-top: 6vh;
+    font-size: 1.7vh;
+    background-color: rgba(119, 119, 119, 0.7);
+    border-color: #111;
+}
+
+article div button{
+    margin-top: 8vh;
+    height: 5vh;
+    width: 60%;
+    margin-left: 43%;
+    font-size: 2.5vh;
+    background-color: rgba(119, 119, 119, 0.7);
+    border-color: #111;
+}

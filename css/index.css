@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(99, 1, 99);
+    height: 9vh;
+    width: 100%;
+}
+
+#logo{
+    width: 25%;
+    height: 6vh;
+    margin-top: 1.5vh;
+    margin-left: 0.7%;
+    float: left;
+}
+
+#logo img{
+    height: 6vh;
+    width: auto;
+    float: left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #111;
+}
+
+#logo p :hover{
+    text-decoration: underline;
+}
+
+#logo p{
+    font-size: 5vh;
+    margin-left: 1vh;
+}
+
+nav{
+    height: 7vh;
+    background-color: #6D6D6D;
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 17.3vh;
+    font-size: 4vh;
+    margin-top: 0.16vh;
+
+}
+
+nav li a:hover{
+    color: #000;
+    background-color: #620080;
+}
+
+nav li a{
+    color: #000;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 1vh 10%;
+    border-radius: 10vh;
+}
+
+section{
+    height: 80vh;
+    width: 100%;
+    float: left;
+    background-image: url(../img/guitar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vh;
+}
+
+footer{
+    height: 4vh;
+    background-color: #444;
+    width: 100%;
+    float: left;
+}
+
+footer p{
+    font-size: 2vh;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 1vh;
+}
+
+article{
+    background-color: rgba(51, 51, 51,0.7);
+    height: 57vh;
+    width: 21%;
+    float: left;
+    margin-top: 11vh;
+    margin-left: 3.4%;
+    border: 5px solid #111;
+}
+
+article p{
+    font-size: 3.4vh;
+    text-align: center;
+}
+
+#article1 img{
+    height: 20vh;
+    width: auto;
+    float: left;
+    margin-left: 0.7%;
+    margin-top: 0.3vh;
+}
+
+#article2 img{
+    height: 24vh;
+    width: auto;
+    float: left;
+    margin-top: 0.7%;
+    margin-left: -0.3vh;
+}
+
+#article3 img{
+    height: 26vh;
+    width: auto;
+    float: left;
+    margin-left: 16%;
+    margin-top: 0.3vh;
+}
+
+#article4 img{
+    height: 23.5vh;
+    width: auto;
+    margin-left: 0.9%;
+    margin-top: 0.3vh;
+}

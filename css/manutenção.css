@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(99, 1, 99);
+    height: 9vh;
+    width: 100%;
+}
+
+#logo{
+    width: 25%;
+    height: 6vh;
+    margin-top: 1.5vh;
+    margin-left: 0.7%;
+    float: left;
+}
+
+#logo img{
+    height: 6vh;
+    width: auto;
+    float: left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #111;
+}
+
+#logo p :hover{
+    text-decoration: underline;
+}
+
+#logo p{
+    font-size: 5vh;
+    margin-left: 1vh;
+}
+
+nav{
+    height: 7vh;
+    background-color: #6D6D6D;
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 17.3vh;
+    font-size: 4vh;
+    margin-top: 0.16vh;
+
+}
+
+nav li a:hover{
+    color: #000;
+    background-color: #620080;
+}
+
+nav li a{
+    color: #000;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 1vh 10%;
+    border-radius: 10vh;
+}
+
+section{
+    background-color: #444;
+    height: 80vh;
+    width: 100%;
+    float: left;
+    background-image: url(../img/lab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vh;
+}
+
+footer{
+    height: 4vh;
+    background-color: #333;
+    width: 100%;
+    float: left;
+}
+
+footer p{
+    font-size: 2vh;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 1vh;
+}
+
+article{
+    background-color: rgba(85, 85, 85, 0.3);
+    height: 75vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2.5vh;
+}
+
+article div{
+    height: 25vh;
+    margin-bottom: 40vh;
+    width: 20%;
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 9vh;
+    margin-left: 4vh;
+}
+
+article div select{
+    font-size: 2.2vh;
+    background-color: rgb(119, 119, 119, 0.7);
+    border-color: #111;
+    border-radius: 5vh;
+}
+
+article div #select1{   
+    margin-top: 0vh;
+}
+
+article div #select2{
+    margin-top: 0vh;
+}
+
+article div textarea{
+    background-color: rgba(119, 119, 119, 0.7);
+    height: 15vh;
+    width: 150%;
+    font-size: 2vh;
+    margin-top: 3.5vh;
+    max-width: 150%;
+    resize: none;
+    border-color: #111;
+    color: #000;
+}
+
+article div p{
+    font-size: 2.5vh;
+}
+
+article div #p1{
+    margin-top: 1.5vh;
+}
+
+article div #p2{
+    margin-top: 3vh;
+}
+
+article div button{
+    background-color: rgb(119, 119, 119, 0.7);
+    margin-top: 3vh;
+    height: 5vh;
+    width: 35%;
+    border-color: #111;
+    cursor: pointer;
+}

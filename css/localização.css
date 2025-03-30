@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(99, 1, 99);
+    height: 9vh;
+    width: 100%;
+}
+
+#logo{
+    width: 25%;
+    height: 6vh;
+    margin-top: 1.5vh;
+    margin-left: 0.7%;
+    float: left;
+}
+
+#logo img{
+    height: 6vh;
+    width: auto;
+    float: left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #111;
+}
+
+#logo p :hover{
+    text-decoration: underline;
+}
+
+#logo p{
+    font-size: 5vh;
+    margin-left: 1vh;
+}
+
+nav{
+    height: 7vh;
+    background-color: #6D6D6D;
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 17.3vh;
+    font-size: 4vh;
+    margin-top: 0.16vh;
+
+}
+
+nav li a:hover{
+    color: #000;
+    background-color: #620080;
+}
+
+nav li a{
+    color: #000;
+    transition: all 0.5s;
+    text-decoration: none;
+    padding: 1vh 10%;
+    border-radius: 10vh;
+}
+
+section{
+    height: 80vh;
+    width: 100%;
+    float: left;
+    background-image: url(../img/castle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vh;
+}
+
+footer{
+    height: 4vh;
+    background-color: #444;
+    width: 100%;
+    float: left;
+}
+
+footer p{
+    font-size: 2vh;
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top: 1vh;
+}
+
+article{
+    background-color: rgba(119, 119, 119,0.8);
+    height: 70vh;
+    width: 95%;
+    margin-top: 5vh;
+    margin-left: 2.6%;
+    border: 5px solid #333;
+}
+
+article #image1{
+    height: 60vh;
+    width: auto;
+    margin-top: 5vh;
+    margin-left: 5%;
+    float: left;
+}
+
+article #image2{
+    float: left;
+    height: 32vh;
+    margin-left: -16%;
+    margin-top: 27vh;
+}
+
+article #image3{
+    height: 20vh;
+    float: left;
+    margin-top: 46vh;
+    margin-left: 1%;
+}
+
+article p{
+    font-size: 4vh;
+    margin-left: 110vh;
+    margin-top: -30vh;
+    float: left;
+}
